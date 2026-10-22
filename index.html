@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>List Jualan Gogeta</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  padding: 35px 18px;
+  color: white;
+  background:
+    radial-gradient(ellipse at top, #172554, transparent 65%),
+    linear-gradient(145deg, #070b16, #111827, #190b20);
+}
+
+.container {
+  max-width: 420px;
+  margin: auto;
+  text-align: center;
+}
+
+.banner {
+  height: 125px;
+  border-radius: 20px;
+  background: linear-gradient(120deg, #2563eb, #7c3aed, #dc2626);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 30px #3b82f644;
+}
+
+.banner::after {
+  content: "GOGETA";
+  position: absolute;
+  right: -8px;
+  bottom: -12px;
+  font-size: 65px;
+  font-weight: 900;
+  font-style: italic;
+  color: #ffffff25;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  margin: -48px auto 16px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #0b1120;
+  border: 3px solid #60a5fa;
+  box-shadow: 0 0 25px #3b82f677;
+  color: #60a5fa;
+  font-size: 42px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+h1 span {
+  color: #60a5fa;
+}
+
+.badge {
+  display: inline-block;
+  padding: 7px 13px;
+  margin-bottom: 16px;
+  border: 1px solid #3b82f6;
+  border-radius: 20px;
+  background: #1e3a8a44;
+  color: #93c5fd;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.description {
+  color: #aab4ca;
+  font-size: 13px;
+  line-height: 1.8;
+  margin-bottom: 27px;
+}
+
+.section-title {
+  text-align: left;
+  color: #94a3b8;
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin: 0 4px 13px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 13px;
+  border: 1px solid #334155;
+  border-radius: 15px;
+  background: #ffffff08;
+  text-decoration: none;
+  color: white;
+  text-align: left;
+  transition: 0.25s;
+}
+
+.link:hover {
+  transform: translateY(-3px);
+  border-color: #60a5fa;
+  background: #2563eb20;
+  box-shadow: 0 5px 25px #2563eb22;
+}
+
+.icon {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 12px;
+  background: #1e293b;
+  font-size: 23px;
+}
+
+.info {
+  flex: 1;
+}
+
+.info strong {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.info small {
+  color: #94a3b8;
+  font-size: 11px;
+}
+
+.arrow {
+  color: #60a5fa;
+  font-size: 20px;
+}
+
+.note {
+  margin: 24px 0;
+  color: #64748b;
+  font-size: 11px;
+}
+
+.footer {
+  padding-top: 17px;
+  border-top: 1px solid #ffffff15;
+  color: #64748b;
+  font-size: 11px;
+}
+
+@media (max-width: 360px) {
+  h1 { font-size: 21px; }
+  .link { padding: 12px; }
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+  <div class="banner"></div>
+
+  <div class="avatar">G</div>
+
+  <h1>LIST JUALAN <span>GOGETA</span></h1>
+
+  <div class="badge">⚡ GAMING STORE</div>
+
+  <p class="description">
+    Welcome to Gogeta Store! 🔥<br>
+    Semua link resmi kami ada di bawah.<br>
+    Pilih dan kunjungi akun kami!
+  </p>
+
+  <div class="section-title">CONNECT WITH GOGETA</div>
+
+  <!-- AKUN TELEGRAM -->
+  <a class="link"
+     href="https://t.me/Gogetavz"
+     target="_blank" rel="noopener noreferrer">
+    <div class="icon">✈</div>
+    <div class="info">
+      <strong>Telegram Account</strong>
+      <small>@Gogetavz · Akun Telegram resmi</small>
+    </div>
+    <span class="arrow">↗</span>
+  </a>
+
+  <!-- CHANNEL TELEGRAM -->
+  <a class="link"
+     href="https://t.me/gogeta_com"
+     target="_blank" rel="noopener noreferrer">
+    <div class="icon">✈</div>
+    <div class="info">
+      <strong>Telegram Channel</strong>
+      <small>Gabung channel Gogeta</small>
+    </div>
+    <span class="arrow">↗</span>
+  </a>
+
+  <!-- AKUN TIKTOK -->
+  <a class="link"
+     href="https://www.tiktok.com/@gogetavz"
+     target="_blank" rel="noopener noreferrer">
+    <div class="icon">♪</div>
+    <div class="info">
+      <strong>TikTok</strong>
+      <small>@gogetavz · Follow akun kami</small>
+    </div>
+    <span class="arrow">↗</span>
+  </a>
+
+  <p class="note">⚡ GAMING • COMMUNITY • GOGETA</p>
+
+  <div class="footer">
+    © 2026 List Jualan Gogeta
+    <br>All Rights Reserved
+  </div>
+
+</div>
+</body>
+  </html>
+  
